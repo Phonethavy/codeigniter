@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+a{
+    text-decoration: none;
+}
+td,
+th {
+    overflow: hidden;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.chart-container {
+    width: 80%;
+    margin: 30px auto;
+    border-bottom: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tho {
+    background-color: rgb(236, 26, 26);
+    color: white;
+
+}
+
+.hidden-row {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.compare-btn {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    width: 15%;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.compare-btn:hover {
+    background-color: #8d0000;
+}
+
+.table-container {
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1000px;
+}
+
+th,
+td {
+    padding: 12px 14px;
+    text-align: right;
+    border  : 1px solid #eee;
+}
+
+th {
+    background-color: rgb(236, 26, 26);     
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+.tabolable th{
+    background-color: rgb(236, 26, 26);    
+    color: white;
+    text-align: center;
+
+}
+td:first-child,
+th:first-child {
+    text-align: left  ;
+}
+
+.goal-cell {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+button a{
+    color: rgb(0, 0, 0);
+
+}
+.toggle-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #b50000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+.toggle-icon {
+    transition: transform 0.3s;
+}
+
+.rotated {
+    transform: rotate(90deg);
+}
+
+.nested-rows {
+    display: none;
+    background-color: #fdfdfd;
+}
+
+.visible {
+    display: table-row;
+}
+
+@media (max-width: 768px) {
+
+    th,
+    td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .toggle-btn {
+        font-size: 14px;
+    }
+}
+
+.btn-compare {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-compare i {
+    margin-right: 6px;
+}
+.btn-compare:hover{
+    background-color: #a50202;
+}
+.btn-red {
+    background-color: rgb(236, 26, 26); 
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn-red:hover{
+    background-color: #a50202;
+}
+.cmp{
+    margin-left: 20px;
+}
+.btn-search{
+    background-color: rgb(236, 26, 26); 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn-search:hover{
+    background-color: #a50202;
+}
+/* .cmp table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.cmp table th,
+.cmp table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: right;
+}
+
+.cmp table th:first-child,
+.cmp table td:first-child {
+    text-align: left;
+}
+
+.cmp table thead {
+    background-color:rgb(255, 0, 0);
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
